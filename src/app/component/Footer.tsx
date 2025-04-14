@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Description */}
           <div className="lg:col-span-2">
-            <h2 className="text-2xl font-bold text-white mb-4">Eventick</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Eventick Esport</h2>
             <p className="mb-6">
-              Eventick is a global self-service ticketing platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.
+              Eventick Esport is a global self-service ticketing platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.
             </p>
           </div>
 
