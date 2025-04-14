@@ -10,7 +10,7 @@ export default function home() {
   return (
     <div>
       <Navbar 
-      logoText="Eventick Gaming"
+      logoText="Eventick Esport"
       logoColor="text-white-400"
       navItems={[
     { label: 'Tournaments', href: '#tournaments' },
