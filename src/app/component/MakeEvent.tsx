@@ -23,7 +23,7 @@ const MakeEvent = () => {
             {/* Image Section - Replace with your actual image */}
             <div className="relative h-64 md:h-auto md:flex-1">
               <Image
-                src="/make_your_event.png" // Replace with your image path
+                src="/make_event.png" // Replace with your image path
                 alt="People creating an event"
                 fill
                 className="object-cover"

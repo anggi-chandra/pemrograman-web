@@ -59,7 +59,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-6 text-center md:text-left">
-          <p>Copyright © {new Date().getFullYear()} Avi Yansoh</p>
+          <p>Copyright © {new Date().getFullYear()} Anggi Chandra</p>
         </div>
       </div>
     </footer>
