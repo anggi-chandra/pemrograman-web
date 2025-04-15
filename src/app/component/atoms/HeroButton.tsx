@@ -17,7 +17,7 @@ export const HeroButton = ({
   
   const variants = {
     primary: "bg-red-600 hover:bg-red-700 text-white",
-    secondary: "bg-transparent hover:bg-white hover:bg-opacity-20 text-white border-2 border-white"
+    secondary: "bg-transparent hover:bg-black hover:bg-opacity-20 text-white border-2 border-white"
   };
 
   return (
