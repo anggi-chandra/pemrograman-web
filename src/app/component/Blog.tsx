@@ -36,7 +36,7 @@ const Blog = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Blog</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Berita baru-baru ini yang muncul terkait esport.
+          Recent news that has emerged regarding esports.
           </p>
         </div>
 
