@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 
-interface Navbar {
+interface NavbarProps {
   logoText?: string;
   logoColor?: string;
   navItems: {
@@ -15,7 +15,7 @@ interface Navbar {
   showMobileMenu?: boolean;
 }
 
-const Navbar: React.FC<Navbar> = ({
+const Navbar: React.FC<NavbarProps> = ({
   logoText = 'Eventick Esport',
   logoColor = 'text-white',
   navItems = [
