@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface EventDateBadgeProps {
   month: string;
   date: string;

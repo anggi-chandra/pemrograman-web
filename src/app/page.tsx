@@ -2,7 +2,7 @@
 import React from 'react';
 import { Navbar } from './component/organisms/Navbar';
 import { HeroSection } from './component/organisms/HeroSection';
-import { UpcomingEvent } from './component/organisms/UpcomingEvent';
+import { UpcomingEvent } from './component/organisms/UpcomingEvent'
 import { Blog } from './component/organisms/Blog';
 import { MakeEvent } from './component/organisms/MakeEvent';
 import { OurBrand } from './component/organisms/OurBrand';
