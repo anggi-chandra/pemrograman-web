@@ -99,27 +99,44 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col relative overflow-hidden">
+      {/* Background gradient overlay */}
+      <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 opacity-5 pointer-events-none z-0"></div>
+      
       {/* Navbar */}
-      <Navbar />
+      <div className="relative z-10">
+        <Navbar />
+      </div>
       
       {/* Hero Section */}
-      <HeroSection />
+      <div className="relative z-10">
+        <HeroSection />
+      </div>
       
       {/* Upcoming Events */}
-      <UpcomingEvent events={events} />
+      <div className="relative z-10 transform transition-all duration-1000 hover:scale-[1.01]">
+        <UpcomingEvent events={events} />
+      </div>
       
       {/* Blog Section */}
-      <Blog posts={blogPosts} />
+      <div className="relative z-10 transform transition-all duration-1000 hover:scale-[1.01]">
+        <Blog posts={blogPosts} />
+      </div>
       
       {/* Make Event Section */}
-      <MakeEvent />
+      <div className="relative z-10">
+        <MakeEvent />
+      </div>
       
       {/* Our Brand Section */}
-      <OurBrand brands={brands} />
+      <div className="relative z-10 transform transition-all duration-1000 hover:scale-[1.01]">
+        <OurBrand brands={brands} />
+      </div>
       
       {/* Footer */}
-      <Footer />
+      <div className="relative z-10">
+        <Footer />
+      </div>
     </div>
   );
 };
